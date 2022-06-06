@@ -4,10 +4,11 @@ caso haja uma divisão por 0 ou raiz de número negativo.
  */
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1036 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         double A, B, C, delta, R1, R2;
         A = sc.nextDouble();

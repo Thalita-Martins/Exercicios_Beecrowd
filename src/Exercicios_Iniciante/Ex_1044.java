@@ -2,10 +2,11 @@
 ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
  */
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1044 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int A,B,total;
         A = sc.nextInt();

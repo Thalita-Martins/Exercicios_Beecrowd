@@ -5,10 +5,11 @@ mostre o valor lido e a relação de notas necessárias.
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1018 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int N, cont100 = 0,cont50 = 0, cont20 = 0, cont10 = 0, cont5 = 0, cont2 = 0, cont1 = 0, quant;

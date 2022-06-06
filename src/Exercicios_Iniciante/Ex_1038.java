@@ -3,10 +3,11 @@ item. A seguir, calcule e mostre o valor da conta a pagar.
 Tabela: http://prntscr.com/jwbkg8
  */
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1038 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int cod,qtd;
         double valor;

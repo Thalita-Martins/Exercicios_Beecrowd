@@ -5,9 +5,10 @@ Se o ponto estiver na origem, escreva a mensagem “Origem”.
 Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
  */
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 public class Ex_1041 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         double x,y;
         x = sc.nextDouble();

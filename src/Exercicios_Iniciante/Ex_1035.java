@@ -6,10 +6,11 @@ senão escrever "Valores nao aceitos".
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1035 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
         int A, B, C, D;

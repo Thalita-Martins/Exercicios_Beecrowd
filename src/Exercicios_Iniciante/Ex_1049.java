@@ -7,10 +7,11 @@ http://prntscr.com/jwis51
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1049 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
         String tipo1, tipo2, tipo3;

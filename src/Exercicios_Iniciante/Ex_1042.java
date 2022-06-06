@@ -3,10 +3,11 @@ crescente, uma linha em branco e em seguida, os valores na sequência como foram
  */
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1042 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int a, b, c;
         a = sc.nextInt();

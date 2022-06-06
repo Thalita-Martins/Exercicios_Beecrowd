@@ -7,10 +7,11 @@ calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1017 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int tempo,velocidade;

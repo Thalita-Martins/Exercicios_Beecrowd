@@ -4,10 +4,11 @@ e informe-o expresso no formato horas:minutos:segundos.
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1019 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int N,conthr,contmin,contseg;

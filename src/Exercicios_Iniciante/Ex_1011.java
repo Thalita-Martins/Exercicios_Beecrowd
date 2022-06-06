@@ -4,11 +4,12 @@ A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para 
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1011 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         double pi = 3.14159;
         double volume;

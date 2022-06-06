@@ -8,10 +8,11 @@ e o carro Y sai com velocidade constante de 90 Km/h.
 
 package Exercicios_Iniciante;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1016 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int km,tempo;

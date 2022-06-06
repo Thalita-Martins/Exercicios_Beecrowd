@@ -6,10 +6,11 @@ Area = XX.X
 */
 
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1043 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         double A,B,C,perimetro,area;
         A = sc.nextDouble();

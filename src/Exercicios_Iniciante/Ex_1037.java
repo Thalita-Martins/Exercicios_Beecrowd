@@ -6,10 +6,11 @@ O símbolo (representa "maior que". Por exemplo:
 (25,50] indica valores maiores que 25 Ex: 25.00001 até o valor 50.0000000
 */
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1037 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         double num;
         num = sc.nextDouble();

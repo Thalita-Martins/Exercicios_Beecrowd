@@ -6,9 +6,10 @@ Distancia = sqrt((x2-x1)² + (y2 - y1)²
 
 
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 public class Ex_1015 {
-    public static void main(String[] args)  {
+    public static void main(String[] args)  throws IOException {
 
         Scanner sc = new Scanner(System.in);
 

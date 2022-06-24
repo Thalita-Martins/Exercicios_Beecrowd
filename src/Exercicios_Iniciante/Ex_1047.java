@@ -29,6 +29,6 @@ public class Ex_1047 {
        if (hrini == hrFim && minIni == minFim)
            System.out.println("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");
        else
-           System.out.println("O JOGO DURO " + hrTot + " HORA(S) E " + mintot + " MINUTO(S)");
+           System.out.println("O JOGO DUROU " + hrTot + " HORA(S) E " + mintot + " MINUTO(S)");
     }
 }

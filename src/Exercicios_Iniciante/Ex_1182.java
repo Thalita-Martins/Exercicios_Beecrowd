@@ -7,10 +7,11 @@
  deverão ser considerados na operação.
  */
 package Exercicios_Iniciante;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ex_1182 {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int C;
         double soma = 0;
